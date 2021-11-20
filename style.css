@@ -1,0 +1,103 @@
+h1 {
+    font-family: cursive;
+    color: orangered;
+}
+#prof {
+    width: 260px;
+    height: 260px;
+}
+body {
+    font-family: monospace;
+    background-color: black;
+}
+.menu {
+    text-decoration: none;
+    list-style: none;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0);
+}
+.item  {
+    float: left;
+    color: black;
+    height: 40px;
+    width: 90px;
+}
+.item :hover {
+    background-color: rgba(255, 0, 0, 0.39);
+    color: rgb(0, 0, 0);
+}
+button {
+    height: 40px;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border: 1px solid hsla(0, 0%, 0%, 0.144);
+}
+html {
+    scroll-behavior: smooth;
+}
+#home {
+    background-image: url(/Images/black-abstract-background-with-various-corner-layers-vector.jpg);
+    background-size: 100% 100%;
+}
+.sections {
+    height: 600px;
+}
+#about {
+    font-family: cursive;
+    font-size: medium;
+    color: limegreen;
+}
+.img {
+    height: 320px;
+    width: 320px;
+}
+.sec {
+    color: orangered;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: red;
+    
+}
+#contacts {
+    background-color: coral;
+}
+
+#logo {
+    text-align: center;
+}
+
+.back {
+    background-image: url(/Images/webback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sect {
+    background-color:black;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    position:fixed;
+    background-color: rgba(0, 0, 0);
+    top: 0%;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.D {
+    font-size: 30px;
+    font-family: 'K2D', sans-serif;
+}
+
+#logo-line {
+    color: orangered;
+}
